@@ -6,7 +6,7 @@ angular.module('services').run(['Menus',
 		// Config logic
 		// ...
 
-		Menus.addMenuItem('topbar', 'Services', 'services', 'dropdown', '/services(/create)?');
+		Menus.addMenuItem('topbar', 'Services', 'services', 'dropdown', '/services(/create)?', true);
 		Menus.addSubMenuItem('topbar', 'services', 'List Services', 'services');
 	}
 ]);

@@ -1,5 +1,5 @@
 .content {
-	margin-top: 50px;
+	margin-top: 75px;
 }
 .undecorated-link:hover {
 	text-decoration: none;
@@ -16,15 +16,23 @@
 .jumbotron{
 	background-image: url("http://it-relocation.ca/wp-content/uploads/2015/06/caliber-it-server-relocation.jpg");
 	background-repeat: no-repeat;
+	height: 375px;
+
+	
+	color: white;
 
 }
-.jumbotron h1, .jumbotron .h1{
-   margin: 0 0 16px;
+.wid h1, .jumbotron .h1{
+   margin: 0 0 0 0;
    font-family: wf_segoe-ui_light,"Segoe UI Light","Segoe WP Light","Segoe UI","Segoe WP",Tahoma,Arial,sans-serif;
    font-weight: 400;
    font-size: 50px;
    line-height: 1.2em;
    color: white;
+}
+.jumbotron h1, .jumbotron .h1{
+	margin-top: -30px;
+
 }
 
 .navbar-inverse .navbar-brand {
@@ -36,5 +44,11 @@
 .btn{
 	border-radius: 0;
 	background-image: linear-gradient(to bottom, #F8823F 0%, #DC7F3E 100%);
+}
+
+.row.ng-scope{
+margin-right: 0;
+margin-left: 0;
+
 }
 
